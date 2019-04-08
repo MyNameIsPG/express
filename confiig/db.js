@@ -3,7 +3,7 @@ let connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '123456',
-    database: 'tb_demo',
+    database: 'shopping',
     charset: 'UTF8_GENERAL_CI'
 });
 connection.connect(function(err){
